@@ -5014,7 +5014,7 @@ Inherits WebControlWrapper
 		        gg.DrawString(text, x, y+(DayHeight-gg.TextHeight)\2 + gg.TextAscent, DayWidth, True)
 		      elseif Pos = 1 then
 		        gg.DrawString(text, x + (DayWidth - gg.StringWidth(text))\2, y+(DayHeight-gg.TextHeight)\2 + _
-		         gg.TextAscent, DayWidth, True)
+		        gg.TextAscent, DayWidth, True)
 		      else
 		        gg.DrawString(text, x - gg.StringWidth(text), y+(DayHeight-gg.TextHeight)\2 + gg.TextAscent, _
 		        DayWidth, True)
@@ -6877,7 +6877,7 @@ Inherits WebControlWrapper
 		              
 		              If HasColor then
 		                me.AddEvent New CalendarEvent(Summary, DateStart, DateEnd, MyColor, Location, _
-		                 Description, UID, Editable, Tag, Recurrence)
+		                Description, UID, Editable, Tag, Recurrence)
 		              else
 		                me.AddEvent New CalendarEvent(Summary, DateStart, DateEnd, DefaultColor, Location, _ 
 		                Description, UID, Editable, Tag, Recurrence)
@@ -7406,7 +7406,7 @@ Inherits WebControlWrapper
 		        "Xojo.get('" + me.ControlID + "_header').outerHTML = '" + html + "';" + _
 		        "myElem.src = '" + myPicture.URL + "';" + _
 		        "};")
-		         
+		        
 		        //Overflows
 		        ExecuteJavaScript("Xojo.get('" + container +"').style.overflowX = 'hidden'; Xojo.get('" + container +"').style.overflowY = 'hidden'; ")
 		        
@@ -9327,7 +9327,7 @@ Inherits WebControlWrapper
 		#tag Note
 			#newinversion 1.4.0
 			
-			If True, before refreshing the display, the CalendarView fires the CalendarEventFilter Event 
+			If True, before refreshing the display, the CalendarView fires the CalendarEventFilter Event
 		#tag EndNote
 		FilterEvents As Boolean
 	#tag EndProperty
